@@ -1,0 +1,12 @@
+.horizontalView {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textStyle {
+    text-transform: none;
+    font-family: 'Poppins';
+    line-height: 21px;
+    font-size: 14px;
+    color: #333333;
+}
