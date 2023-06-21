@@ -2,7 +2,7 @@ import { Box, Button, Grid, Typography } from "@mui/material";
 import Navbar from "./navbar/navbar";
 import UnderLine from "./../assets/svgs/underline.svg";
 import Car from "./../assets/svgs/carIcon.svg";
-import Health from "./../assets/svgs/healthCareIcon.svg";
+import Health from "./../assets/svgs/healthcareIcon.svg";
 import Bike from "./../assets/svgs/bikeIcon.svg";
 import Loan from "./../assets/svgs/personalLoanIcon.svg";
 import Credit from "./../assets/svgs/creditIcon.svg";
