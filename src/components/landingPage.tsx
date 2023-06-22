@@ -61,8 +61,8 @@ function LandingPage() {
             <Box style={{ height: "30px" }} />
             <Box>
                 <Grid container style={{ position: "relative" }}>
-                    <Grid item lg={1} md={1} sm={12} />
-                    <Grid item lg={4.8} md={4.8} sm={12} xs={12}>
+                    <Grid item lg={1} md={1} sm={1} xs={1}/>
+                    <Grid item lg={4.8} md={4.8} sm={11} xs={11}>
                         <Box style={{ height: "15vh" }} />
                         <Box style={{ height: "90%" }}>
                             <Typography
@@ -147,11 +147,10 @@ function LandingPage() {
                                 })}
                             </Grid>
                             <Box style={{ height: "50px" }}></Box>
-                            <Grid container>
-                                <Grid item lg={5} sm={12}>
+                                    <Box style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                                        {/* <Box style={{width:"20px"}}/> */}
                                     <Button
                                         style={{
-                                            width: "90%",
                                             padding: "16px 24px",
                                             background: "#0691FC",
                                             borderRadius: "8px",
@@ -163,9 +162,8 @@ function LandingPage() {
                                     >
                                         Get a Expert Call
                                     </Button>
-                                </Grid>
-                                <Grid item lg={1} sm={12}>
                                     <Box style={{ height: "10px" }}></Box>
+                                    <Box style={{width:"13px"}}></Box>
                                     <Typography
                                         style={{
                                             fontFamily: "Poppins",
@@ -175,12 +173,9 @@ function LandingPage() {
                                     >
                                         Or
                                     </Typography>
-                                    <Box style={{ height: "10px" }}></Box>
-                                </Grid>
-                                <Grid item lg={5} sm={12}>
+                                    <Box style={{ width: "13px" }}></Box>
                                     <Button
                                         style={{
-                                            width: "90%",
                                             padding: "16px 24px",
                                             background: "#E6F4FF",
                                             border: "1.5px dashed #0691FC",
@@ -194,12 +189,12 @@ function LandingPage() {
                                         <img src={UploadFile} alt="uploadFileIcon" />
                                         &nbsp;Know Your Policy
                                     </Button>
-                                </Grid>
-                            </Grid>
+                                    <Box style={{width:"120px"}}/>
+                                    </Box>
                         </Box>
                     </Grid>
-                    <Grid item lg={2} sm={0.1} md={1.5} xs={1.5} />
-                    <Grid item lg={4} md={4} sm={12} xs={12}>
+                    <Grid item lg={2} md={0.3} sm={1} xs={1} />
+                    <Grid item lg={4} md={5} sm={11} xs={11}>
                         <Box style={{ height: "60px" }} />
                         <img src="Mobile.png" alt="Mobile" height="530vh" />
                     </Grid>
@@ -249,7 +244,7 @@ function LandingPage() {
                                                 backgroundColor: "rgb(253, 243, 243)",
                                                 borderRadius: "24px",
                                                 alignItems: "center",
-                                                height: "45vh",
+                                                // height: "320px",
                                             }}
                                         >
                                             <Box style={{ height: "2vh" }} />

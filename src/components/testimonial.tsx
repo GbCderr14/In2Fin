@@ -24,8 +24,8 @@ function Testimonial() {
     return <>
         <Box style={{ backgroundColor: "#00223C", textAlign: "left" }}>
             <Grid container>
-                <Grid item lg={1} md={2} sm={1} xs={1} />
-                <Grid item lg={3.5} md={4} sm={12} xs={12}>
+                <Grid item lg={1} md={2} sm={1} xs={0.5} />
+                <Grid item lg={3.5} md={4} sm={10.2} xs={11}>
                     <Box style={{ height: "15vh" }} />
                     <Typography
                         style={{
@@ -75,8 +75,8 @@ function Testimonial() {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item lg={1.5} md={1.5} />
-                <Grid item lg={4} md={4} sm={12} xs={12}>
+                <Grid item lg={1.5} md={1.5} sm={0.9} xs={0.9}/>
+                <Grid item lg={4} md={4} sm={10} xs={10}>
                     <Box style={{ height: "6vh" }} />
                     {testimonials.map((testimonial)=>{
                         return <><Box style={{ width: "100%",backgroundColor:"white",padding:"15px 25px",borderRadius:"20px" }}>
